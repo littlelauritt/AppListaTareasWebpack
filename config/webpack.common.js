@@ -33,7 +33,7 @@ const config = {
         },
     plugins: [
         new HtmlWebPackPlugin({
-            filename: 'index.[fullhash].html',
+            filename: 'index.html',
             template: 'src/index.html'
         }),
         new MiniCssExtractPlugin({
